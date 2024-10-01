@@ -32,8 +32,8 @@
 This command runs an evaluation script for the NSE algorithm using the Llama3-8b-instruct. Below are the explanations for each argument:
 
 - `--alg_name=NSE`: Specifies the name of the algorithm being used, which is NSE in this case.
-- `--model_name=meta-llama/Meta-Llama-3-8B-Instruct`: Indicates the name of the model being evaluated, here it is GPT-J-6B from EleutherAI.
-- `--hparams_fname=Llama3-8B.json`: Points to the JSON file containing hyperparameters specific to the GPT-J-6B model.
+- `--model_name=meta-llama/Meta-Llama-3-8B-Instruct`: Indicates the name of the model being evaluated, here it is Llama-3-8B-Instruct.
+- `--hparams_fname=Llama3-8B.json`: Points to the JSON file containing hyperparameters specific to the Llama-3-8B-Instruct model.
 - `--ds_name=mcf`: Specifies the dataset name, in this case, "mcf".
 - `--dataset_size_limit=2000`: Sets the total number of editing samples to 2000.
 - `--num_edits=100`: Defines the batch size for each round of editing, meaning 100 edits will be performed in each batch. 
