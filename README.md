@@ -4,6 +4,7 @@
 ![alt text](resource/intro_fig.png)
 
 - Neuron-level Sequential Editing (NSE), a new model editing method designed for sequential model editing in large language models. NSE prevents model failure by optimizing the hidden states of the target layer using the model's original weights. To mitigate model forgetting, it iteratively selects neurons in multiple layers based on their activation values. Empirical experiments show that NSE significantly outperforms existing parameter-modifying model editing methods in the context of sequential editing.
+- Our work focuses on optimizing sequential model editing from two perspectives: the computation of values and the updating of weights \(W\). Additionally, we recommend that readers interested in sequential model editing consult our complementary study, [AlphaEdit](https://arxiv.org/pdf/2410.02355), which enhances sequential editing from an objective standpoint. Together, these approaches offer synergistic improvements to the field.
 
 ![alt text](resource/model_fig.png)
 *Figure: This is the overall architecture of our NSE method.*
